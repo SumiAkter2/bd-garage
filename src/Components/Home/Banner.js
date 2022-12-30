@@ -31,31 +31,28 @@ const Banner = () => {
           onSwiper={(swiper) => console.log("swiper")}
           className="mySwiper"
         >
-          <SwiperSlide
-            className="slider text-white text-start"
-            style={{
-              backgroundImage: `url(${banner1})`,
-            }}
-          >
-            <div className="slider-text  text-white font-serif text-center">
-              <div>
-                <h1 className="lg:text-5xl text-3xl py-5">
-                Make Your Business Online
-                </h1>
-                <div className=" border-b-4 border-primary w-56 my-6 mx-auto"></div>
-                <p className="lg:text-3xl text-xl">
-                  Corporate and professional business solution
-                </p>
+          <div className="">
+            <SwiperSlide className="slider  text-white text-start zoom-in img-change">
+              <div className="slider-text  text-white font-serif text-center">
+                <div>
+                  <h1 className="lg:text-5xl text-3xl py-5">
+                    Make Your Business Online
+                  </h1>
+                  <div className=" border-b-4 border-primary w-56 my-6 mx-auto"></div>
+                  <p className="lg:text-3xl text-xl">
+                    Corporate and professional business solution
+                  </p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          </div>
           <SwiperSlide
-            className="slider text-white text-center"
+            className=" text-white text-center zoom-out slider"
             style={{
               backgroundImage: `url(${banner2})`,
             }}
           >
-            <div className="slider-text  text-white font-serif">
+            <div className="slider-text slider  text-white font-serif">
               <div>
                 <h1 className="lg:text-5xl text-3xl py-5 ">
                   More Financial Solution

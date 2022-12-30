@@ -4,6 +4,8 @@ color: red;
 } */
 blink {
     animation: 2s linear infinite condemned_blink_effect;
+    color: #FF533D;
+    font-weight: 600;
 }
 
 @keyframes condemned_blink_effect {
