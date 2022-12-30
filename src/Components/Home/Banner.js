@@ -89,29 +89,35 @@ const Banner = () => {
       </div>
       {/* ============== who we are page================= */}
       <div>
-        <div className="flex justify-center items-center lg:mx-24 ">
+        <div className="lg:flex justify-center items-center lg:mx-24 my-6 ">
           <div className="flex-3 px-4">
-            <h1 className="text-secondary lg:text-4xl text-2xl font-bold uppercase">
-              Who we are & What we do?
+            <h1 className="text-secondary lg:text-4xl text-2xl font-bold uppercase w-60">
+              Who we are
             </h1>
             <br />
             <h1 className="border-b-2 border-primary lg:w-32 "></h1>
-            <p className="text-success font-bold  mt-4">
+            <p className="text-success font-bold  mt-4 ">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Accusantium a, sunt obcaecati veniam.
-                      </p>
-                      <button className="btn btn-primary btn-outline rounded-none my-4">Learn more</button>
+            </p>
+            <button className="btn btn-primary btn-outline rounded-none my-4 lg:block hidden">
+              Learn more
+            </button>
           </div>
-          <div className="flex-3 text-secondary px-4">
-            <p>
+          <div className="flex-3 text-secondary px-4 text-xl">
+            <p className="mt-4">
               We are a consulting Business Providing Ecommerce Support to Big ,
               Medium & Small Size company We are into Hiring Business- Don’t
               forgot to check our website- http://yellowboxhr.com We also
               provide Infrastructure support ,Product research, Market Research,
               Surveys and Case Studies Last, We make Business Come Online
             </p>
+            <button className="btn btn-primary btn-outline rounded-none my-4 lg:hidden block">
+              Learn more
+            </button>
           </div>
         </div>
+        <div className="border-b-2 border-secondary  my-4 lg:mx-24"></div>
       </div>
     </div>
   );
