@@ -13,7 +13,7 @@ const ExtraInfo = () => {
               facilis cumque obcaecati saepe libero modi consequatur laboriosam
               officia.
             </h1>
-            <button className="btn btn-light  btn-outline rounded-none my-4 ">
+            <button className="btn btn-light  btn-outline rounded-none my-4 hover:text-black">
               Read More
             </button>
           </div>
