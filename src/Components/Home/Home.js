@@ -1,5 +1,6 @@
 import React from "react";
 import OurClients from "../Clients/OurClients";
+import Comment from "../Comment/Comment";
 import ExtraInfo from "../ExtraInfo/ExtraInfo";
 import Faq from "../Faq/Faq";
 import HomeServices from "../HomeServices/HomeServices";
@@ -12,7 +13,8 @@ const Home = () => {
       <ExtraInfo />
       <HomeServices />
       <OurClients />
-      <Faq/>
+      <Comment />
+      <Faq />
     </div>
   );
 };
