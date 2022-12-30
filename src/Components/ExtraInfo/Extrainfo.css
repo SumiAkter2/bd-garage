@@ -1,5 +1,5 @@
 .info-container{
-background: url('../../img//laptop-1209008_1280.jpg');
+background: url('../../img/laptop-1209008_1280.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -8,6 +8,17 @@ height: 400px;
 width: 700px;
 
 
+}
+.icon-bg{
+    background: url('../../img/quote.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    /* width: 150px;
+    height: 150px; */
+    margin: 0 auto;
+    
 }
 .side-animation{
     display: none;
