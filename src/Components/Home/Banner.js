@@ -46,7 +46,7 @@ const Banner = () => {
               </div>
             </SwiperSlide>
           </div>
-          <SwiperSlide
+          {/* <SwiperSlide
             className=" text-white text-center zoom-out slider"
             style={{
               backgroundImage: `url(${banner2})`,
@@ -63,7 +63,7 @@ const Banner = () => {
                 </p>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
