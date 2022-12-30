@@ -1,4 +1,21 @@
-.nav-item:hover{
+/* .nav-item:hover{
 border: 2px solid red;
 color: red;
+} */
+blink {
+    animation: 2s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
 }

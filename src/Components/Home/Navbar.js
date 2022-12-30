@@ -14,10 +14,14 @@ const Navbar = () => {
       <div className="flex justify-around items-center bg-transparent py-4">
         <div className="flex justify-center items-center">
           <img src={icon} alt="brand-icon" />
-          <h1 className="text-3xl font-bold">Dhakru</h1>
+          <h1 className="text-3xl font-bold text-black">Dhakru</h1>
         </div>
-        <p className="text-neutral lg:block hidden">Finance Str.10 New York</p>
-        <p className="text-neutral lg:block hidden">office@acounting.com</p>
+        <p className="text-neutral lg:block hidden">
+          83/A Park Street Kolkata 700016
+        </p>
+        <p className="text-neutral lg:block hidden">
+          B504 Vision Eternity Marunji Pune 411057
+        </p>
         <p className="text-neutral lg:block hidden">Mon-Fri 08:00-18:00</p>
         <div className="flex justify-around items-center text-neutral">
           <ImFacebook className="lg:mr-6 mr-2 lg:block hidden" />
@@ -40,7 +44,7 @@ const Navbar = () => {
               </CustomLink>
 
               <CustomLink to="/eCommerce" className="mr-6 ">
-                Indian E-Commerce
+                <blink> Indian E-Commerce</blink>
               </CustomLink>
               <CustomLink to="/contact" className="mr-6  ">
                 Contact
@@ -68,12 +72,9 @@ const Navbar = () => {
                 </CustomLink>
 
                 <CustomLink to="/eCommerce" className="  nav-item">
-                  Indian E-Commerce
+                  <blink>Indian E-Commerce</blink>
                 </CustomLink>
-                <li
-                  to="/contact"
-                  className=" hover:tracking-wide nav-item"
-                >
+                <li to="/contact" className=" hover:tracking-wide nav-item">
                   Contact
                 </li>
               </ul>
@@ -88,7 +89,7 @@ const Navbar = () => {
               </CustomLink>
 
               <CustomLink to="/eCommerce" className="mr-6  ">
-                Indian E-Commerce
+                <blink> Indian E-Commerce</blink>
               </CustomLink>
               <CustomLink to="/contact" className="mr-6  ">
                 Contact
@@ -98,7 +99,7 @@ const Navbar = () => {
 
           <div className="navbar-end">
             <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:block hidden">
-              Call us: +98786766
+              Call us: +91 9284865249
             </button>
             <div className="flex lg:hidden justify-around items-center text-neutral">
               <ImFacebook className="lg:mr-6 mr-2" />
