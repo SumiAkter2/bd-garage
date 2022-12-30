@@ -8,10 +8,12 @@ import banner1 from "../../img/architecture-1867772_1920.jpg";
 import banner2 from "../../img/beard-2326422_1920.jpg";
 import { Navigation, Pagination } from "swiper";
 import { BsLink } from "react-icons/bs";
+import BannerInfo from "./BannerInfo";
+
 const Banner = () => {
   return (
     <div>
-      <div className="mt-6 ">
+      <div className="mt-6 z-2 Banner-container">
         <Swiper
           autoplay={{
             // delay: 5000,
@@ -38,7 +40,7 @@ const Banner = () => {
                   <h1 className="lg:text-5xl text-3xl py-5">
                     Make Your Business Online
                   </h1>
-                  <div className=" border-b-4 border-primary w-56 my-6 mx-auto"></div>
+                  <div className=" border-b-4 border-primary lg:w-56 my-6 mx-auto "></div>
                   <p className="lg:text-3xl text-xl">
                     Corporate and professional business solution
                   </p>
@@ -65,6 +67,25 @@ const Banner = () => {
             </div>
           </SwiperSlide> */}
         </Swiper>
+      </div>
+      {/* =================information part=================== */}
+
+      <div
+        className="grid grid-cols-1 lg:grid-cols-3 lg:mx-24 mx-12 
+     banner-info"
+      >
+        <BannerInfo
+          cardTitle="FINANCIAL AUDIT"
+          bgClass="bg-primary opacity-90 hover:opacity-100"
+        ></BannerInfo>
+        <BannerInfo
+          cardTitle="BUSINESS VALUATION"
+          bgClass="bg-accent opacity-90 hover:opacity-100"
+        ></BannerInfo>
+        <BannerInfo
+          cardTitle="TAX ADVISORY"
+          bgClass="bg-primary opacity-90 hover:opacity-100"
+        ></BannerInfo>
       </div>
     </div>
   );

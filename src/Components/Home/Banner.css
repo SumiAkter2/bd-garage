@@ -5,10 +5,11 @@
         /* -webkit-background-size: cover; */
         box-sizing: border-box;
         background-blend-mode: overlay;
-     background: url("../../img/architecture-1867772_1920.jpg") no-repeat;
-     /* display: inline-block; */
-transition: 0.3s;
-animation: imgChange 80s ease-out infinite;
+        background: url("../../img/architecture-1867772_1920.jpg") no-repeat;
+    
+        transition: 0.9s linear ;
+       
+        /* animation: imgChange 80s ease-out infinite; */
  }
 
  .img-change:hover {
@@ -16,6 +17,24 @@ animation: imgChange 80s ease-out infinite;
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+
+ }
+ .Banner-container{
+  position: relative;
+  z-index: -1;
+ }
+ .banner-info{
+     margin-top: -40px; 
+     z-index: 2; 
+     line-height: 1;
+     font-family: open-sans, sans-serif;
+     letter-spacing: 1px;
+     padding: 20px;
+ }
+ .banner-content{
+  
+    text-align: center;
+    margin-bottom: 20px;
  }
  /* @keyframes imgChange {
      0% {
