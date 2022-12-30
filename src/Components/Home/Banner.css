@@ -1,22 +1,21 @@
  .img-change {
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        /* -webkit-background-size: cover; */
+        -webkit-background-size: cover;
         box-sizing: border-box;
         background-blend-mode: overlay;
-        background: url("../../img/architecture-1867772_1920.jpg") no-repeat;
-    
+        background: url("../../img/architecture-1867772_1920.jpg") ;
         transition: 0.9s linear ;
        
         /* animation: imgChange 80s ease-out infinite; */
  }
 
  .img-change:hover {
-     background: url("../../img/beard-2326422_1920.jpg") no-repeat;
-    background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+     background: url("../../img/beard-2326422_1920.jpg") ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 
  }
  .Banner-container{
@@ -24,7 +23,7 @@
   z-index: -1;
  }
  .banner-info{
-     margin-top: -40px; 
+     margin-top: -60px; 
      z-index: 2; 
      line-height: 1;
      font-family: open-sans, sans-serif;

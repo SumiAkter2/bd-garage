@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banner.css";
+import banner2 from "../../img/baner-image.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,7 +16,7 @@ const Banner = () => {
         <Swiper
           autoplay={{
             // delay: 5000,
-            disableOnInteraction: true,
+            OnInteraction: true,
           }}
           style={{
             "--swiper-navigation-color": "#fff",
@@ -45,25 +46,25 @@ const Banner = () => {
                 </div>
               </div>
             </SwiperSlide>
-          </div>
-          {/* <SwiperSlide
-            className=" text-white text-center zoom-out slider"
-            style={{
-              backgroundImage: `url(${banner2})`,
-            }}
-          >
-            <div className="slider-text slider  text-white font-serif">
-              <div>
-                <h1 className="lg:text-5xl text-3xl py-5 ">
-                  More Financial Solution
-                </h1>
-                <div className=" border-b-4 border-primary w-56 my-6 mx-auto"></div>
-                <p className="lg:text-3xl text-xl">
-                  Corporate and professional business solution
-                </p>
+            <SwiperSlide
+              className=" text-white text-center zoom-out slider"
+              style={{
+                backgroundImage: `url(${banner2})`,
+              }}
+            >
+              <div className="slider-text slider  text-white font-serif">
+                <div>
+                  <h1 className="lg:text-5xl text-3xl py-5 ">
+                    More Financial Solution
+                  </h1>
+                  <div className=" border-b-4 border-primary w-56 my-6 mx-auto"></div>
+                  <p className="lg:text-3xl text-xl">
+                    Corporate and professional business solution
+                  </p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide> */}
+            </SwiperSlide>
+          </div>
         </Swiper>
       </div>
       {/* =================information part=================== */}
