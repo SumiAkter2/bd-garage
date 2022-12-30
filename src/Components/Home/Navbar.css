@@ -1,6 +1,4 @@
-.call-btn{
-    width: 100px;
-    height: 25px;
-    border-radius: 50px;
-    background-color: aqua;
+.nav-item:hover{
+border: 2px solid red;
+color: red;
 }

@@ -6,6 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import CustomLink from "../CustomLink/CustomLink";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -24,24 +25,24 @@ const Navbar = () => {
           <FaLinkedinIn className="lg:mr-6 mr-2 lg:block hidden" />
           <div className="dropdown dropdown-left">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <AiOutlineMenu size="25px"  fill='black'/>
+              <AiOutlineMenu size="25px" fill="black" />
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-400 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-400 rounded-box w-52 "
             >
-              <CustomLink to="/" className="mr-6 hover:border-b-2">
+              <CustomLink to="/" className="mr-6 ">
                 Home
               </CustomLink>
 
-              <CustomLink to="/services" className="mr-6 hover:border-b-2">
+              <CustomLink to="/services" className="mr-6  ">
                 Services
               </CustomLink>
 
-              <CustomLink to="/eCommerce" className="mr-6  hover:border-b-2">
+              <CustomLink to="/eCommerce" className="mr-6 ">
                 Indian E-Commerce
               </CustomLink>
-              <CustomLink to="/contact" className="mr-6 hover:border-b-2 ">
+              <CustomLink to="/contact" className="mr-6  ">
                 Contact
               </CustomLink>
             </ul>
@@ -57,75 +58,44 @@ const Navbar = () => {
               Call us: +98786766
             </button>
             <div className="dropdown">
-              <ul
-                // tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <CustomLink to="/" className="mr-6 hover:border-b-2">
+              <ul className="menu menu-compact dropdown-content mt-3 p-2 ">
+                <CustomLink to="/" className=" nav-item">
                   Home
                 </CustomLink>
 
-                <CustomLink to="/services" className="mr-6 hover:border-b-2">
+                <CustomLink to="/services" className=" nav-item">
                   Services
                 </CustomLink>
 
-                <CustomLink to="/eCommerce" className="mr-6  hover:border-b-2">
+                <CustomLink to="/eCommerce" className="  nav-item">
                   Indian E-Commerce
                 </CustomLink>
-                <CustomLink to="/contact" className="mr-6 hover:border-b-2 ">
+                <li
+                  to="/contact"
+                  className=" hover:tracking-wide nav-item"
+                >
                   Contact
-                </CustomLink>
+                </li>
               </ul>
             </div>
             <ul className="menu menu-horizontal px-4  hidden lg:flex">
-              <CustomLink to="/" className="mr-6 hover:border-b-2">
+              <CustomLink to="/" className="mr-6 ">
                 Home
               </CustomLink>
 
-              <CustomLink to="/services" className="mr-6 hover:border-b-2">
+              <CustomLink to="/services" className="mr-6 ">
                 Services
               </CustomLink>
 
-              <CustomLink to="/eCommerce" className="mr-6  hover:border-b-2">
+              <CustomLink to="/eCommerce" className="mr-6  ">
                 Indian E-Commerce
               </CustomLink>
-              <CustomLink to="/contact" className="mr-6 hover:border-b-2 ">
+              <CustomLink to="/contact" className="mr-6  ">
                 Contact
               </CustomLink>
             </ul>
           </div>
-          {/* <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li tabIndex={0}>
-                <a>
-                  Parent
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                  </svg>
-                </a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div> */}
+
           <div className="navbar-end">
             <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:block hidden">
               Call us: +98786766
