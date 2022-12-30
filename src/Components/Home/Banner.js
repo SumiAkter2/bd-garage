@@ -4,10 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import banner1 from "../../img/architecture-1867772_1920.jpg";
-import banner2 from "../../img/beard-2326422_1920.jpg";
 import { Navigation, Pagination } from "swiper";
-import { BsLink } from "react-icons/bs";
+
 import BannerInfo from "./BannerInfo";
 
 const Banner = () => {
@@ -88,10 +86,10 @@ const Banner = () => {
         ></BannerInfo>
       </div>
       {/* ============== who we are page================= */}
-      <div>
+      <div className="we-are-content">
         <div className="lg:flex justify-center items-center lg:mx-24 my-6 ">
           <div className="flex-3 px-4">
-            <h1 className="text-secondary lg:text-4xl text-2xl font-bold uppercase w-60">
+            <h1 className="text-secondary lg:text-4xl text-2xl font-bold uppercase w-72">
               Who we are
             </h1>
             <br />
@@ -101,7 +99,7 @@ const Banner = () => {
               Accusantium a, sunt obcaecati veniam.
             </p>
             <button className="btn btn-primary btn-outline rounded-none my-4 lg:block hidden">
-              Learn more
+              Learn More
             </button>
           </div>
           <div className="flex-3 text-secondary px-4 text-xl">

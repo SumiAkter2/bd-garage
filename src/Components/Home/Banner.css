@@ -36,6 +36,9 @@
     text-align: center;
     margin-bottom: 20px;
  }
+ .we-are-content{
+    font-family: sans-serif;
+ }
  /* @keyframes imgChange {
      0% {
          transform: scale(1, 1);

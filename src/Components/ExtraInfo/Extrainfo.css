@@ -1,0 +1,22 @@
+.info-container{
+background: url('../../img//laptop-1209008_1280.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+height: 400px;
+width: 700px;
+
+
+}
+.side-animation{
+    display: none;
+    transition: .3s;
+}
+.para:hover +.side-animation{
+    display: block;
+}
+/* .para:hover + .side-animation {
+    color: red;
+    display: block;
+} */
