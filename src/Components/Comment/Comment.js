@@ -29,25 +29,25 @@ const Comment = () => {
             <h1 className="text-center my-auto p-6 font-bold lg:text-4xl">
               2023
             </h1>
-            <p className="">CONTRACTS</p>
+            <p className="text-xs">CONTRACTS</p>
           </div>
           <div className="w-32 h-32 rounded-full border-4 border-primary text-center text-primary font-bold  mx-auto">
             <h1 className="text-center my-auto p-6 font-bold lg:text-4xl">
               100%
             </h1>
-            <p className="">SATISFACTION</p>
+            <p className="text-xs">SATISFACTION</p>
           </div>
           <div className="w-32 h-32 rounded-full border-4 border-primary text-center text-primary font-bold  mx-auto">
             <h1 className="text-center my-auto p-6 font-bold lg:text-4xl">
               789
             </h1>
-            <p className="">CASES</p>
+            <p className="text-xs">CASES</p>
           </div>
           <div className="w-32 h-32 rounded-full border-4 border-primary text-center text-primary font-bold  mx-auto">
             <h1 className="text-center my-auto p-6 font-bold lg:text-4xl">
               1023
             </h1>
-            <p className="">CLIENTS </p>
+            <p className="text-xs">CLIENTS </p>
           </div>
         </div>
       </div>
