@@ -9,7 +9,7 @@ const Footer = () => {
           <h1 className="text-3xl font-bold">Dhakru</h1>
         </div>
       </footer>
-      <div className="flex justify-between items-center bg-accent text-white px-12 pb-4">
+      <div className="flex justify-between items-center bg-accent text-white px-12 py-4 ">
         <h1>&copy; 2022 Dhakru All Rights Reserved</h1>
         <div>
           <span className="footer-title">Social</span>
