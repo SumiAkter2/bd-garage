@@ -12,10 +12,20 @@ background-image: url(../../img/laptop-1478611_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    height: 380px;
+    /* height: 380px; */
 }
-@media  screen and (max-width:560px) {
+/* @media  screen and (max-width:560px) {
     .services-content{
         height: 500px;
     }
+} */
+/* @media screen and (max-width:460px) {
+    .services-content {
+        height: 450px;
+    }
 }
+@media screen and (max-width:360px) {
+    .services-content {
+        height: 500px;
+    }
+} */
