@@ -13,37 +13,29 @@ const HomeServices = () => {
           Sed hendrerit, diam et pellentesque aliquam, lectus ipsum maximus
           quam, vitae auctor
         </p>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-y-7 gap-x-2 mt-6 mx-12 px-12">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5  mt-6 mx-12 px-12">
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="​ACCOUNTING SERVICES"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="TAX SERVICES"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="BUSINESS CONSULTING"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="CORPORATE FINANCE"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="COMPANY REGISTRATION"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
           <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
-            bgClass="bg-accent hover:bg-black"
-          ></HomeServicesInfo>
-          <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
-            bgClass="bg-accent hover:bg-black"
-          ></HomeServicesInfo>
-          <HomeServicesInfo
-            cardTitle="FINANCIAL AUDIT"
+            cardTitle="LEGAL CONSULTING"
             bgClass="bg-accent hover:bg-black"
           ></HomeServicesInfo>
         </div>

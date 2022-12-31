@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       {/* ====contact banner======= */}
-      <div className="contact-container my-5">
+      <div className="contact-container mb-5">
         <div className="bg-black opacity-60 h-72"></div>
       </div>
 
@@ -47,10 +47,12 @@ const Contact = () => {
           </p>
         </div>
         <div className="bg-success h-96 ml-2 p-12">
-          
           <div className="ml-6">
             <form action="">
-              <h1 className="text-2xl font-bold mb-4 text-primary"> Contact us</h1>
+              <h1 className="text-2xl font-bold mb-4 text-primary">
+                {" "}
+                Contact us
+              </h1>
               <input
                 type="text"
                 className="input input-primary"
