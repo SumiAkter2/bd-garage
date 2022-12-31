@@ -1,0 +1,8 @@
+.contact-container{
+    background-image: url(../../img/laptop-1478611_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 280px;
+}
