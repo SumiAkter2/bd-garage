@@ -14,10 +14,10 @@ blink {
     }
 
     50% {
-        visibility: hidden;
+    visibility: hidden;
     }
 
     100% {
-        visibility: visible;
+    visibility: visible;
     }
 }
