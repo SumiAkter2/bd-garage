@@ -69,7 +69,7 @@ const Navbar = () => {
 
       <div className="  ">
         <div className="navbar bg-accent text-white">
-          <div className="navbar-start">
+          <div className="navbar-start px-4">
             <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:hidden block">
               Call us: +98786766
             </button>
@@ -113,10 +113,10 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-end">
-            <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:block hidden">
+            <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:block hidden px-3">
               Call us: +91 9284865249
             </button>
-            <div className="flex lg:hidden justify-around items-center text-neutral">
+            <div className="flex lg:hidden justify-around items-center text-neutral px-3">
               <ImFacebook className="lg:mr-6 mr-2" />
               <BsTwitter className="lg:mr-6 mr-2" />
               <FaLinkedinIn className="lg:mr-6 mr-2" />
