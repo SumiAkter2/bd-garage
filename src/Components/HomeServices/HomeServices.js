@@ -8,8 +8,8 @@ const HomeServices = () => {
         <h1 className="lg:text-5xl text-3xl font-bold text-center pt-12">
           OUR SERVICES
         </h1>
-        <div className="border-b-2 border-primary lg:w-32 mx-auto mt-4"></div>
-        <p className="pb-6">
+        <div className="border-b-2 border-primary lg:w-32 w-12 mx-auto mt-4"></div>
+        <p className="py-6 px-4">
           Sed hendrerit, diam et pellentesque aliquam, lectus ipsum maximus
           quam, vitae auctor
         </p>
@@ -48,7 +48,7 @@ const HomeServices = () => {
           ></HomeServicesInfo>
         </div>
       </div>
-      <div className="h-32 bg-primary flex justify-center items-center">
+      <div className="h-32 bg-primary flex justify-center items-center p-4">
         <p>For more information Feel free to Contact with Us</p>
         <button className=" btn rounded-full hover:text-black btn-light btn-outline ml-6">
           Send Quote

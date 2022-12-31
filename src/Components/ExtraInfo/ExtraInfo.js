@@ -43,7 +43,7 @@ const ExtraInfo = () => {
       {/* =================bottom content============ */}
       <div className="bg-primary h-72">
         <div className="icon-bg mt-4 opacity-20 h-24  w-24 "></div>
-        <h1 className="text-center text-white text-3xl lg:text-5xl italic lg:p-6 p-2">
+        <h1 className="text-center text-white text-3xl lg:text-5xl italic lg:p-6 pb-4 px-2 ">
           A big part of financial freedom is having your heart and mind free
           from worry about the what-ifs of life.
         </h1>

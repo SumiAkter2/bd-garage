@@ -12,8 +12,8 @@ const OurClients = () => {
         <h1 className="lg:text-5xl text-secondary text-3xl font-bold text-center pt-12">
           OUR CLIENTS
         </h1>
-        <div className="border-b-2 border-primary lg:w-32 mx-auto mt-4"></div>
-        <p className="pb-6 text-success mt-4">
+        <div className="border-b-2 border-primary lg:w-32 mx-auto mt-4 w-12"></div>
+        <p className="pb-6 text-success mt-4 p-3">
           ed hendrerit, diam et pellentesque aliquam, lectus ipsum maximus diam
           et pellentesque aliquam, lectus
         </p>
