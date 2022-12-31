@@ -17,7 +17,7 @@ const OurClients = () => {
           ed hendrerit, diam et pellentesque aliquam, lectus ipsum maximus diam
           et pellentesque aliquam, lectus
         </p>
-        <div className="grid lg:grid-cols-6 md:grid-cols-3 gap-2 px-24 mx-12">
+        <div className="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 gap-2 px-24 mx-12">
           <img src={img1} className="w-28 border border-black" alt="icon" />
           <img src={img2} className="w-28 border border-black" alt="icon" />
           <img src={img3} className="w-28 border border-black" alt="icon" />

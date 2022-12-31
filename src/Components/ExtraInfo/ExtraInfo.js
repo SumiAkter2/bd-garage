@@ -6,8 +6,8 @@ const ExtraInfo = () => {
   return (
     <div>
       <div className="lg:flex justify-center items-item my-12">
-        <div className=" info-container  text-white flex lg:mx-6">
-          <div className="w-1/2 bg-black opacity-70 lg:p-12 p-4">
+        <div className=" info-container  text-white flex lg:mx-6 mx-auto">
+          <div className="w-1/2 bg-black opacity-70 lg:p-12 p-2 ">
             <h1 className="lg:text-3xl text-sm font-bold my-2 text-primary">
               How we Can help you ?
             </h1>

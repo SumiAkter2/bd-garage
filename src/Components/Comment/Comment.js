@@ -24,7 +24,7 @@ const Comment = () => {
             </div>
           </div>
         </div>
-        <div className="bg-accent h-96 lg:w-1/2 lg:grid grid-cols-2 p-12 my-12 hidden">
+        <div className="bg-accent lg:h-96 lg:w-1/2 lg:grid grid-cols-2 lg:p-12 lg:my-12 hidden ">
           <div className="w-32 h-32 rounded-full border-4 border-primary text-center text-primary font-bold mx-auto ">
             <h1 className="text-center my-auto p-6 font-bold lg:text-4xl">
               2023

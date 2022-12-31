@@ -3,7 +3,7 @@ import icon from "../../img/LOGO.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-accent text-white">
+      <footer className="footer p-10 bg-accent text-white mt-12">
         <div className="flex justify-center items-center">
           <img src={icon} alt="brand-icon" />
           <h1 className="lg:text-3xl text-sm font-bold">

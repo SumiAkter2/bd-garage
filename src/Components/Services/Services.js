@@ -15,10 +15,10 @@ import { FaFileImport } from "react-icons/fa";
 import "./Services.css";
 const Services = () => {
   return (
-    <div>
+    <div className="my-12">
       <div>
         {/* ==========services banner============= */}
-        <div className="services-container mb-5">
+        <div className="services-container mb-6 ">
           <div className="bg-black opacity-60 h-72 text-white text-center">
             <h1 className="lg:text-4xl text-2xl py-12 font-bold">
               SERVICE AND PRICING
@@ -30,7 +30,7 @@ const Services = () => {
           </div>
         </div>
         {/* ===========services content================== */}
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-12 mx-24">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-12 lg:mx-24 mx-12">
           <div className="card border-2 border-primary  shadow-3xl hover:bg-success">
             <figure className="pt-6">
               <FaUser fill="#FF533D" size="35px" />
@@ -457,7 +457,7 @@ const Services = () => {
       </div>
       {/* ==============bottom ================== */}
       <div>
-        <div className="bg-primary h-96 mx-12 lg:mx-24 my-6">
+        <div className="bg-primary h-96 mx-12 lg:mx-24 my-12">
           <div className="icon-bg  opacity-20 h-24  w-24 "></div>
           <h1 className="text-center text-white text-2xl lg:text-3xl italic lg:p-6 pb-4 px-2 font-bold bg-orange-300">
             WHY YOU NEED TO HIRE VIRTARY'S VIRTUAL ASSISTANTS?
@@ -468,8 +468,8 @@ const Services = () => {
           </h1>
         </div>
         <div className="services-content my-5">
-          <div className="bg-black opacity-80 lg:h-96 text-white text-center">
-            <h1 className="lg:text-4xl text-2xl py-12 font-bold px-6">
+          <div className="bg-black opacity-80 lg:h-96 text-white text-center mt-12">
+            <h1 className="lg:text-4xl text-2xl py-12 font-bold px-6 mt-6">
               "HIRING A VIRTUAL ASSISTANT AS A REMOTE STAFF DEFINITELY
               ACCELERATES YOUR BUSINESS AND YOUR COMPANY FROM 0 TO 740
               HORSEPOWER.
