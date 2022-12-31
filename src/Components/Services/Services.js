@@ -468,7 +468,7 @@ const Services = () => {
           </h1>
         </div>
         <div className="services-content my-5">
-          <div className="bg-black opacity-80 h-96 text-white text-center">
+          <div className="bg-black opacity-80 lg:h-96 text-white text-center">
             <h1 className="lg:text-4xl text-2xl py-12 font-bold px-6">
               "HIRING A VIRTUAL ASSISTANT AS A REMOTE STAFF DEFINITELY
               ACCELERATES YOUR BUSINESS AND YOUR COMPANY FROM 0 TO 740
@@ -476,7 +476,7 @@ const Services = () => {
               <br />
               <br />A VIRTUAL ASSISTANT MAKES YOU RUN FASTER, FLY HIGHER!"
             </h1>
-            <button className=" btn btn-primary btn-outline lg:w-56">
+            <button className=" btn btn-primary btn-outline lg:w-56 my-6">
               Talk to Virtury now
             </button>
           </div>
