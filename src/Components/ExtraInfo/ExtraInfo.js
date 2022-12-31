@@ -5,8 +5,8 @@ const ExtraInfo = () => {
   return (
     <div>
       <div className="lg:flex justify-center items-item my-12">
-        <div className=" info-container  text-white flex mx-6">
-          <div className="w-1/2 bg-black opacity-70 p-12 ">
+        <div className=" info-container  text-white flex lg:mx-6">
+          <div className="w-1/2 bg-black opacity-70 lg:p-12 p-4">
             <h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis aut sit veniam ducimus nesciunt, velit similique porro
@@ -43,7 +43,7 @@ const ExtraInfo = () => {
       {/* =================bottom content============ */}
       <div className="bg-primary h-72">
         <div className="icon-bg mt-4 opacity-20 h-24  w-24 "></div>
-        <h1 className="text-center text-white text-3xl lg:text-5xl italic p-6">
+        <h1 className="text-center text-white text-3xl lg:text-5xl italic lg:p-6 p-2">
           A big part of financial freedom is having your heart and mind free
           from worry about the what-ifs of life.
         </h1>

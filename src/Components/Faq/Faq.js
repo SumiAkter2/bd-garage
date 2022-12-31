@@ -11,7 +11,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 const Faq = () => {
   return (
     <div>
-      <div className=" text-center">
+      <div className=" text-center my-12">
         <h1 className="lg:text-5xl text-3xl font-bold text-center pt-12 text-secondary">
           F.A.Q
         </h1>

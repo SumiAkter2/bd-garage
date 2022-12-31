@@ -27,7 +27,9 @@ width: 700px;
 .para:hover +.side-animation{
     display: block;
 }
-/* .para:hover + .side-animation {
-    color: red;
-    display: block;
-} */
+@media screen and (max-width:560px){
+    .info-container{
+        height: 400px;
+        width: 360px;
+    }
+}
