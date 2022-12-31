@@ -6,7 +6,9 @@ const Footer = () => {
       <footer className="footer p-10 bg-accent text-white">
         <div className="flex justify-center items-center">
           <img src={icon} alt="brand-icon" />
-          <h1 className="text-3xl font-bold">Dhakru</h1>
+          <h1 className="lg:text-3xl text-sm font-bold">
+            Dhakru Research and Consulting Company PVT LTD
+          </h1>
         </div>
       </footer>
       <div className="flex justify-between items-center bg-accent text-white px-12 py-4 ">

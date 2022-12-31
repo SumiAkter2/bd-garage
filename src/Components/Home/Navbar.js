@@ -19,9 +19,7 @@ const Navbar = () => {
         <p className="text-neutral lg:block hidden">
           83/A Park Street Kolkata 700016
         </p>
-        <p className="text-neutral lg:block hidden">
-          B504 Vision Eternity Marunji Pune 411057
-        </p>
+        <p className="text-neutral lg:block hidden">contact@dhakru.com</p>
         <p className="text-neutral lg:block hidden">Mon-Fri 08:00-18:00</p>
         <div className="flex justify-around items-center text-neutral">
           <ImFacebook className="lg:mr-6 mr-2 lg:block hidden" />
@@ -73,27 +71,7 @@ const Navbar = () => {
             <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:hidden block">
               Call us: +98786766
             </button>
-            {/* <div className="dropdown ">
-              <ul className="menu menu-compact dropdown-content mt-3 p-2 w-96">
-                <CustomLink to="/" className=" nav-item">
-                  Hom
-                </CustomLink>
 
-                <CustomLink to="/services" className=" nav-item">
-                  Services
-                </CustomLink>
-
-                <CustomLink
-                  to="/contact"
-                  className=" hover:tracking-wide nav-item"
-                >
-                  Contact
-                </CustomLink>
-                <CustomLink to="/eCommerce" className="  nav-item">
-                  <blink>Indian E-Commerce</blink>
-                </CustomLink>
-              </ul>
-            </div> */}
             <ul className="menu menu-horizontal px-4  hidden lg:flex">
               <CustomLink to="/" className="mr-6 ">
                 Home

@@ -96,8 +96,8 @@ const Banner = () => {
             <br />
             <h1 className="border-b-2 border-primary lg:w-32 "></h1>
             <p className="text-success font-bold  mt-4 ">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Accusantium a, sunt obcaecati veniam.
+              Dhakru Research and Consulting Company PVT LTD. Formerly Known as
+              Jay Research and Consulting Company
             </p>
             <button className="btn btn-primary btn-outline rounded-none my-4 lg:block hidden">
               Learn More

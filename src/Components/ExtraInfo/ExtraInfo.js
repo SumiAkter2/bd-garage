@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BiBullseye } from "react-icons/bi";
 import "./Extrainfo.css";
 const ExtraInfo = () => {
   return (
@@ -7,12 +8,26 @@ const ExtraInfo = () => {
       <div className="lg:flex justify-center items-item my-12">
         <div className=" info-container  text-white flex lg:mx-6">
           <div className="w-1/2 bg-black opacity-70 lg:p-12 p-4">
-            <h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis aut sit veniam ducimus nesciunt, velit similique porro
-              facilis cumque obcaecati saepe libero modi consequatur laboriosam
-              officia.
+            <h1 className="lg:text-3xl text-sm font-bold my-2 text-primary">
+              How we Can help you ?
             </h1>
+            <p className="flex justify-center items-stat text-sm">
+              <BiBullseye size="35px" className="mr-4" /> Will Help you to go
+              online with reputed brand in India like Flipkart, Meesho , Amazon,
+              Myntra and Jio
+            </p>
+            <p className="flex justify-center items-stat text-sm">
+              <BiBullseye size="20px" className="mr-4" /> We Can build you Own
+              Ecommerce Website
+            </p>
+            <p className="flex justify-center items-stat text-sm">
+              <BiBullseye size="20px" className="mr-4" />
+              We can Handle you Finance and GST
+            </p>
+            <p className="flex justify-center items-stat text-sm">
+              <BiBullseye size="20px" className="mr-4" />
+              We manage your social media presence
+            </p>
             <button className="btn btn-light  btn-outline rounded-none my-4 hover:text-black">
               Read More
             </button>
