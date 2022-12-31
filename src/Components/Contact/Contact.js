@@ -43,19 +43,14 @@ const Contact = () => {
           </p>
           <p className="flex justify-start items-start my-3">
             <GrMail size="25px" />
-            <span className=" font-bold ml-4 "> jrcc.jay@gmail.com </span>
+            <span className=" font-bold ml-4 "> contact@dhakru.com</span>
           </p>
         </div>
         <div className="bg-success h-96 ml-2 p-12">
-          {/* <p className="text-primary">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Repudiandae voluptatibus dolorum adipisci sunt! Unde, ea. Accusamus,
-            similique tempora. Ullam vitae harum iste blanditiis, laudantium
-            eius minima ea tenetur a mollitia!
-          </p> */}
+          
           <div className="ml-6">
             <form action="">
-              <h1 className="text-xl mb-4"> Contact us</h1>
+              <h1 className="text-2xl font-bold mb-4 text-primary"> Contact us</h1>
               <input
                 type="text"
                 className="input input-primary"
@@ -77,7 +72,7 @@ const Contact = () => {
               />
               \
               <br /> <br />
-              <button className="btn btn-primary btn-outline">Submit</button>
+              <button className="btn btn-primary ">Submit</button>
             </form>
           </div>
         </div>
