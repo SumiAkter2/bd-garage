@@ -6,12 +6,12 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import CustomLink from "../CustomLink/CustomLink";
-import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div>
       {/* top nav content */}
-      <div className="flex justify-around items-center bg-transparent py-4">
+      <div className="flex justify-around items-center bg-transparent ">
         <div className="flex justify-center items-center">
           <img src={icon} alt="brand-icon" />
           <h1 className="text-3xl font-bold text-black">Dhakru</h1>
@@ -33,21 +33,33 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-400 rounded-box w-52 "
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-accent opacity-60 rounded-box w-64 "
             >
-              <CustomLink to="/" className="mr-6 ">
-                Home
+              <CustomLink
+                to="/"
+                className="  mb-6 p-4 font-bold btn rounded-full btn-outline w-48 mx-auto"
+              >
+                HOME
               </CustomLink>
 
-              <CustomLink to="/services" className="mr-6  ">
-                Services
+              <CustomLink
+                to="/services"
+                className=" mb-6 p-4 font-bold btn rounded-full btn-outline w-48 mx-auto"
+              >
+                SERVICES
               </CustomLink>
 
-              <CustomLink to="/eCommerce" className="mr-6 ">
+              <CustomLink
+                to="/contact"
+                className=" mb-6 p-4 font-bold btn rounded-full btn-outline w-48 mx-auto"
+              >
+                CONTACT
+              </CustomLink>
+              <CustomLink
+                to="/eCommerce"
+                className="w-48 mx-auto mb-6 p-4 font-bold btn-secondary btn rounded-full btn-outline hover:text-white "
+              >
                 <blink> Indian E-Commerce</blink>
-              </CustomLink>
-              <CustomLink to="/contact" className="mr-6  ">
-                Contact
               </CustomLink>
             </ul>
           </div>
@@ -61,24 +73,27 @@ const Navbar = () => {
             <button className="flex-2 btn btn-primary btn-outline bg-accent  rounded-full text-primary lg:hidden block">
               Call us: +98786766
             </button>
-            <div className="dropdown">
-              <ul className="menu menu-compact dropdown-content mt-3 p-2 ">
+            {/* <div className="dropdown ">
+              <ul className="menu menu-compact dropdown-content mt-3 p-2 w-96">
                 <CustomLink to="/" className=" nav-item">
-                  Home
+                  Hom
                 </CustomLink>
 
                 <CustomLink to="/services" className=" nav-item">
                   Services
                 </CustomLink>
 
+                <CustomLink
+                  to="/contact"
+                  className=" hover:tracking-wide nav-item"
+                >
+                  Contact
+                </CustomLink>
                 <CustomLink to="/eCommerce" className="  nav-item">
                   <blink>Indian E-Commerce</blink>
                 </CustomLink>
-                <li to="/contact" className=" hover:tracking-wide nav-item">
-                  Contact
-                </li>
               </ul>
-            </div>
+            </div> */}
             <ul className="menu menu-horizontal px-4  hidden lg:flex">
               <CustomLink to="/" className="mr-6 ">
                 Home
@@ -88,11 +103,11 @@ const Navbar = () => {
                 Services
               </CustomLink>
 
-              <CustomLink to="/eCommerce" className="mr-6  ">
-                <blink> Indian E-Commerce</blink>
-              </CustomLink>
               <CustomLink to="/contact" className="mr-6  ">
                 Contact
+              </CustomLink>
+              <CustomLink to="/eCommerce" className="mr-6  ">
+                <blink> Indian E-Commerce</blink>
               </CustomLink>
             </ul>
           </div>

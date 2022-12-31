@@ -39,7 +39,7 @@ const Banner = () => {
                   <h1 className="lg:text-5xl text-3xl py-5">
                     Make Your Business Online
                   </h1>
-                  <div className=" border-b-4 border-primary lg:w-56 my-6 mx-auto "></div>
+                  <div className=" border-b-4 border-primary lg:w-56 my-6 mx-auto w-12"></div>
                   <p className="lg:text-3xl text-xl">
                     Corporate and professional business solution
                   </p>
