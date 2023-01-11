@@ -12,21 +12,20 @@ const ExtraInfo = () => {
               How we Can help you ?
             </h1>
             <p className="flex justify-center items-stat text-sm">
-              <BiBullseye size="35px" className="mr-4" /> Will Help you to go
-              online with reputed brand in India like Flipkart, Meesho , Amazon,
-              Myntra and Jio
-            </p>
-            <p className="flex justify-center items-stat text-sm">
-              <BiBullseye size="20px" className="mr-4" /> We Can build you Own
-              Ecommerce Website
+              <BiBullseye size="25px" className="mr-4" /> Our consultancy amet
+              consectetur adipisicing elit
             </p>
             <p className="flex justify-center items-stat text-sm">
               <BiBullseye size="20px" className="mr-4" />
-              We can Handle you Finance and GST
+              It's Our Dolor sit amet consectetur ffuikd.
             </p>
             <p className="flex justify-center items-stat text-sm">
               <BiBullseye size="20px" className="mr-4" />
-              We manage your social media presence
+              We are so Lorem ipsum dolor sit amet
+            </p>
+            <p className="flex justify-center items-stat text-sm">
+              <BiBullseye size="20px" className="mr-4" />
+              BD Garage is dolor sit amet consectetur
             </p>
             <button className="btn btn-light  btn-outline rounded-none my-4 hover:text-black">
               Read More

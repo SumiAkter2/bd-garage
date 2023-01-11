@@ -15,7 +15,7 @@ import { FaFileImport } from "react-icons/fa";
 import "./Services.css";
 const Services = () => {
   return (
-    <div className="my-12">
+    <div className="mb-12">
       <div>
         {/* ==========services banner============= */}
         <div className="services-container mb-6 ">
@@ -477,7 +477,7 @@ const Services = () => {
               <br />A VIRTUAL ASSISTANT MAKES YOU RUN FASTER, FLY HIGHER!"
             </h1>
             <button className=" btn btn-primary btn-outline lg:w-56 my-6">
-              Talk to Virtury now
+              Learn More
             </button>
           </div>
         </div>

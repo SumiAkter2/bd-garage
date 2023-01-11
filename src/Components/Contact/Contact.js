@@ -26,24 +26,20 @@ const Contact = () => {
         <div className="bg-primary lg:px-24 py-12 h-96  ">
           <p className="flex justify-start items-start mt-12">
             <ImLocation2 size="25px" />
-            <span className=" font-bold ml-4 ">
-              83/A Park Street Kolkata 700016
-            </span>
+            <span className=" font-bold ml-4 ">Dhaka, Bangladesh</span>
           </p>
           <p className="flex justify-start items-start my-3">
             <BsFillTelephoneFill size="25px" />
-            <span className=" font-bold ml-4">
-              Jay +91 9284865249/ Anuj +91 9163883559
-            </span>
+            <span className=" font-bold ml-4">+880179999677</span>
           </p>
 
           <p className="flex justify-start items-start my-3">
             <MdAccessTimeFilled size="25px" />
-            <span className=" font-bold ml-4"> Monday-Friday 08:00-18:00</span>
+            <span className=" font-bold ml-4"> Monday-Friday 10:00-12:00</span>
           </p>
           <p className="flex justify-start items-start my-3">
             <GrMail size="25px" />
-            <span className=" font-bold ml-4 "> contact@dhakru.com</span>
+            <span className=" font-bold ml-4 "> bdgarage@gmail.com</span>
           </p>
         </div>
         <div className="bg-success h-96 ml-2 p-12">

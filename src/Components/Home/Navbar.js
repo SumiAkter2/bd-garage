@@ -42,7 +42,7 @@ const Navbar = () => {
                 to="/services"
                 className=" mb-6 p-4 font-bold btn rounded-full btn-outline w-48 mx-auto"
               >
-                SERVICES
+                <blink> SERVICES</blink>
               </CustomLink>
 
               <CustomLink
@@ -50,12 +50,6 @@ const Navbar = () => {
                 className=" mb-6 p-4 font-bold btn rounded-full btn-outline w-48 mx-auto"
               >
                 CONTACT
-              </CustomLink>
-              <CustomLink
-                to="/eCommerce"
-                className="w-48 mx-auto mb-6 p-4 font-bold btn-secondary btn rounded-full btn-outline hover:text-white "
-              >
-                <blink> BD E-Commerce</blink>
               </CustomLink>
             </ul>
           </div>
@@ -76,14 +70,11 @@ const Navbar = () => {
               </CustomLink>
 
               <CustomLink to="/services" className="mr-6 ">
-                Services
+                <blink> SERVICES</blink>
               </CustomLink>
 
               <CustomLink to="/contact" className="mr-6  ">
                 Contact
-              </CustomLink>
-              <CustomLink to="/eCommerce" className="mr-6  ">
-                <blink> BD E-Commerce</blink>
               </CustomLink>
             </ul>
           </div>

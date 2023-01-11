@@ -3,10 +3,8 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Home/Navbar";
-import IndianECommerce from "./Components/Indian-E-commerce/IndianECommerce";
+import NotFound from "./Components/NotFound/NotFound";
 import Services from "./Components/Services/Services";
-
-
 
 function App() {
   return (
@@ -15,10 +13,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/services" element={<Services/>}></Route>
-          <Route path="/eCommerce" element={<IndianECommerce />}></Route>
+          <Route path="/services" element={<Services />}></Route>
+          <Route path="/eCommerce" element={<NotFound />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer />
       </div>
