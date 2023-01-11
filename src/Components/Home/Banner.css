@@ -1,23 +1,4 @@
- .img-change {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        box-sizing: border-box;
-        background-blend-mode: overlay;
-        background: url("../../img/architecture-1867772_1920.jpg") ;
-        transition: 0.9s linear ;
-       
-        /* animation: imgChange 80s ease-out infinite; */
- }
 
- .img-change:hover {
-     background: url("../../img/beard-2326422_1920.jpg") ;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-
- }
  .Banner-container{
   position: relative;
   z-index: -1;
@@ -31,88 +12,27 @@
      padding: 20px;
  }
  .banner-content{
-  
     text-align: center;
     margin-bottom: 20px;
  }
  .we-are-content{
     font-family: sans-serif;
  }
- /* @keyframes imgChange {
-     0% {
-         transform: scale(1, 1);
-     }
 
-     50% {
-transform: scale(1.5, 1.5);
-
-        background: url("../../img/beard-2326422_1920.jpg") no-repeat;
-         
-     }
-100%{
-transform: scale(1.5, 1.5);
-}
-   
- } */
 .slider {
-  height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     box-sizing: border-box;
     background-blend-mode: overlay;
-   
-}
-
-.swiper {
-    width: 100%;
-    color: #fff;
-    border-radius: 5px;
-
-}
-
-.swiper-slide {
-    margin: auto, auto;
-    font-weight: 700;
-    color: #fff;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .slider-text {
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.zoom-in {
-  
-    animation: zoom-in 80s ease-out infinite;
-}
-.zoom-out {
 
-    animation: zoom-out 80s ease-out infinite;
-}
-@keyframes zoom-in {
-    0% {
-        transform: scale(1, 1);
-    }
 
-    50% {
-        transform: scale(1.5, 1.5);
-    }
-
-    /* 100% {
-        transform: scale(1, 1);
-    } */
-}
-@keyframes zoom-out {
-    0%{
-        transform: scale(.9,.9);
-    }
-    50%{
-        transform: scale(1.2,1.2);
-    }
-    
-}

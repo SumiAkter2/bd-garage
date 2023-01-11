@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* top nav content */}
       <div className="flex justify-around items-center bg-transparent ">
         <div className="flex justify-center items-center">
-          <img src={icon} alt="brand-icon" />
+          <img src={icon} alt="brand-icon" className="w-20" />
           <h1 className="text-3xl font-bold text-black">Bd Garage</h1>
         </div>
         <p className="text-neutral lg:block hidden">Dhaka, Bangladesh</p>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 Contact
               </CustomLink>
               <CustomLink to="/eCommerce" className="mr-6  ">
-                <blink> Indian E-Commerce</blink>
+                <blink> BD E-Commerce</blink>
               </CustomLink>
             </ul>
           </div>
