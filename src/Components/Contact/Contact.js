@@ -22,31 +22,30 @@ const Contact = () => {
           quam, vitae auctor
         </p>
       </div>
-      <div className="lg:flex justify-center items-start m-6 lg:m-12">
-        <div className="bg-primary lg:px-24 py-12 h-96  ">
-          <p className="flex justify-start items-start mt-12">
+      <div className="lg:flex justify-center items-start m-6 lg:m-12 ">
+        <div className="bg-primary lg:px-24 py-12 h-96  lg:w-1/2 mx-auto my-12">
+          <p className="flex lg:justify-start justify-center items-start mt-12">
             <ImLocation2 size="25px" />
             <span className=" font-bold ml-4 ">Dhaka, Bangladesh</span>
           </p>
-          <p className="flex justify-start items-start my-3">
+          <p className="flex lg:justify-start justify-center items-start my-3">
             <BsFillTelephoneFill size="25px" />
             <span className=" font-bold ml-4">+880179999677</span>
           </p>
 
-          <p className="flex justify-start items-start my-3">
+          <p className="flex lg:justify-start justify-center items-start my-3">
             <MdAccessTimeFilled size="25px" />
             <span className=" font-bold ml-4"> Monday-Friday 10:00-12:00</span>
           </p>
-          <p className="flex justify-start items-start my-3">
+          <p className="flex lg:justify-start justify-center items-start my-3">
             <GrMail size="25px" />
             <span className=" font-bold ml-4 "> bdgarage@gmail.com</span>
           </p>
         </div>
-        <div className="bg-success h-96 ml-2 p-12">
-          <div className="ml-6">
-            <form action="">
+        <div className="bg-success h-96 ml-2 p-6 mx-auto lg:w-1/2 my-12 ">
+          <div className="lg:ml-6 p-6 mx-4">
+            <form className="mx-auto ">
               <h1 className="text-2xl font-bold mb-4 text-primary">
-                {" "}
                 Contact us
               </h1>
               <input
@@ -68,9 +67,9 @@ const Contact = () => {
                 className="input input-primary"
                 placeholder="comment "
               />
-              \
-              <br /> <br />
-              <button className="btn btn-primary ">Submit</button>
+             
+              <br />
+              <button className="btn btn-primary my-6">Submit</button>
             </form>
           </div>
         </div>
